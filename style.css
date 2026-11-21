@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #43b7c2;
+    color: #243b3b;
+}
+
+/* Header */
+header {
+    background-color: #123b3b;
+    color: white;
+    padding: 20px;
+}
+
+header h2 {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    margin-top: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #245e4d;
+    height: 300px;
+    position: relative;
+    padding: 50px;
+    color: white;
+    overflow: hidden;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin: 15px 0;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #e0ad45;
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About */
+.about {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+/* Services */
+.services {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 25px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card1 {
+    border: 2px solid #287c72;
+}
+
+.card2 {
+    background-color: #fff3d6;
+    border-radius: 20px;
+}
+
+.card3 {
+    border: 2px dashed #245e4d;
+}
+
+/* Gallery */
+.gallery {
+    background-color: white;
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 8px;
+    border: 5px solid #ddd;
+}
+
+/* Contact */
+.contact {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact label {
+    display: block;
+    margin-top: 12px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid gray;
+}
+
+.contact textarea {
+    height: 80px;
+}
+
+button {
+    background-color: #035952;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #123b3b;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
